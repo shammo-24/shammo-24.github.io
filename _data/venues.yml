@@ -1,9 +1,11 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"ASME JMR":
+  url: https://asmedigitalcollection.asme.org/mechanismsrobotics
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ASME JMD":
+  url: https://asmedigitalcollection.asme.org/mechanicaldesign/
+  color: "#e87722"
 
-"Vision":
-  color: "#009f36"
+"EnggStruct":
+  url: https://www.journals.elsevier.com/engineering-structures
+  color: "#ff6f61"

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: Stress-based design optimization of metamaterials
+description: a project with a background image and giscus comments
 img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+importance: 2
+category: Past
+giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.
@@ -79,3 +79,4 @@ Here's the code for the last row of images above:
 ```
 
 {% endraw %}
+

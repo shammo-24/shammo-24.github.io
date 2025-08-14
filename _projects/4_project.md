@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
+title: Auxetic metamaterials for load bearing structures
 description: another without an image
-img:
+img: assets/img/8.jpg
 importance: 3
-category: fun
+category: Past
 ---
 
 Every project has a beautiful feature showcase page.

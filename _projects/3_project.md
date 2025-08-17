@@ -1,82 +1,42 @@
 ---
 layout: page
-title: Stress-based design optimization of metamaterials
-description: a project with a background image and giscus comments
-img: assets/img/7.jpg
-importance: 2
+title: stress-optimized metamaterials
+description:
+img: assets/img/thumb-JMD.jpg
+importance: 3
 category: Past
-giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/stress-1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Mechanical metamaterials offer exceptional properties like high strength-to-weight ratios and enhanced energy absorption. However, localized stress concentrations remain a challenge, especially in additively manufactured geometries. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+In this project, we developed a bioinspired design optimization framework using the Maximum Material Utilization (MMU) metric to achieve uniform stress distribution across metamaterial geometries. Starting from an initial conceptual design, we optimized size and shape-size in two planar auxetic metamaterials, achieving uniform stress distribution at both microstructural and material levels. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid loading="eager" path="assets/video/stress-2.mp4" title="example video" class="img-fluid rounded z-depth-1" controls=true muted=true autoplay=true loop=true %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Optimized metamaterial undergoing delayed tensile failure.
 </div>
+
+Numerical simulations and experimental results demonstrated the framework's effectiveness, with optimized lattices showing superior energy absorption in dynamic impact tests compared to unoptimized designs. This work advances stress-based design optimization for robust, lightweight metamaterials. Read more about this optimization formulation in my <a href="https://doi.org/10.1115/1.4068956">ASME JMD publication</a>.
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid loading="eager" path="assets/video/stress-7.mp4" title="example video" class="img-fluid rounded z-depth-1" controls=true muted=true autoplay=true loop=true %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Optimized structure with high impact energy absorption.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
 

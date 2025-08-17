@@ -2,10 +2,10 @@
 layout: page
 title: research
 permalink: /projects/
-description: Present and past research projects
+description:
 nav: true
-nav_order: 3
-display_categories: [Current, Past]
+nav_order: 2
+display_categories:
 horizontal: false
 ---
 

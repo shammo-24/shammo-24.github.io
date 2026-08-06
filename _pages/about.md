@@ -28,7 +28,7 @@ latest_posts:
 ---
 #### Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="22">!
 
-I am a researcher at the <a href="https://smartlab.ua.edu/" target="_blank">SMART Lab</a>, where I develop computational tools to model, design, and optimize mechanical metamaterials - architected materials whose properties emerge from geometry rather than composition - for applications ranging from soft robotics to civil infrastructure.
+I am a researcher at the <a href="https://smartlab.ua.edu/" target="_blank">SMART Lab</a>, where I develop computational tools to model, design, and optimize mechanical metamaterials - architected materials whose properties emerge from geometry rather than chemical composition - for applications ranging from soft robotics to civil infrastructure.
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 

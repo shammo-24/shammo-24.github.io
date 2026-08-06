@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate. <a href="https://smartlab.ua.edu/" target="_blank">SMART Lab</a>. Dept. of Mechanical Engineering, The University of Alabama.
+subtitle: Ph.D. (to be conferred Dec 2026). <a href="https://smartlab.ua.edu/" target="_blank">SMART Lab</a>. Dept. of Mechanical Engineering, The University of Alabama.
 
 profile:
   align: right

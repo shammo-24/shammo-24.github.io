@@ -1,6 +1,6 @@
 "ASME JMR":
   url: https://asmedigitalcollection.asme.org/mechanismsrobotics
-  color: "#00369f"
+  color: "#096e3f"
 
 "ASME JMD":
   url: https://asmedigitalcollection.asme.org/mechanicaldesign/
@@ -9,3 +9,19 @@
 "EnggStruct":
   url: https://www.journals.elsevier.com/engineering-structures
   color: "#ff6f61"
+
+"ASME JEMT":
+  url: https://asmedigitalcollection.asme.org/materialstechnology
+  color: "#c8511a"
+
+"arXiv":
+  url: https://arxiv.org
+  color: "#b31b1b" 
+
+"IEEE IROS":
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000393/all-proceedings
+  color: "#0ebb6b" 
+
+"ASME IDETC":
+  url: https://asmedigitalcollection.asme.org/IDETC-CIE
+  color: "#ebb023" 
